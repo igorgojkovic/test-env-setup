@@ -33,7 +33,7 @@ module.exports = function(config){
         ],
         
         // test results reporter to use
-        // possible values: 'dots', 'progress', 'junit', 'growl' , 'coverage'
+        // possible values: 'dots', 'progress', -- must be installed 'junit', 'growl' , 'coverage'
         reporters: ['progress'],
         
         // web server port
