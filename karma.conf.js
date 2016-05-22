@@ -19,12 +19,12 @@ module.exports = function(config){
         // unless you've added them to a nested directory, in which case you should
         // add their paths to this list.
         files: [
+            'node_modules/angular/angular.js',
+            'node_modules/angular-mocks/angular-mocks.js',
             { pattern: 'bower_components/**/*.js', included: false },
             { pattern: 'dev/**/*.js', included: true },
             { pattern: 'tests/*Spec.js', included: true },
-            { pattern: 'tests/**/*Spec.js', included: true },
-            'node_modules/angular/angular.js',
-            'node_modules/angular-mocks/angular-mocks.js'
+            { pattern: 'tests/**/*Spec.js', included: true }
         ],
         
         // list of files to exclude

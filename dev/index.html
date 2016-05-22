@@ -3,9 +3,13 @@
         <title>Karma tests</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
+    <script src="../node_modules/angular/angular.js"></script>
     <script src="index.js"></script>
-
-    <body >
+    <script src="module.js"></script>
+    <body ng-app="unitTests">
+        <div ng-controller="unitCtrl as vm">
+            {{ vm.strength }}
+        </div>
         
     </body>
 </html>
