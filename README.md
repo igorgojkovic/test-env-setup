@@ -7,7 +7,7 @@ http://www.protractortest.org/#/
 * install Protractor globaly -
 npm install -g protractor
 
-* Try running protractor --version to make sure it's working *
+*/ Try running protractor --version to make sure it's working 
 
 
 * install webdriver -
