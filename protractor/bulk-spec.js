@@ -1,6 +1,6 @@
 describe('angularjs homepage todo list', function() {
   it('should add a todo', function() {
-    browser.get('http://develop/bulk-gate/public/dev/#!/en/list-manager/blacklist-msisdn');
+    browser.get('http://bulk.horisen.dev/dev/#!/en/list-manager/blacklist-msisdn');
 
     // element(by.model('todoList.todoText')).sendKeys('write first protractor test');
     element(by.css('[id="add"]')).click();

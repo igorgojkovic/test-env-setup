@@ -21,7 +21,7 @@ module.exports = function(config){
         files: [
             'node_modules/angular/angular.js',
             'node_modules/angular-mocks/angular-mocks.js',
-            { pattern: 'bower_components/**/*.js', included: false },
+            // { pattern: 'bower_components/**/*.js', included: false },
             { pattern: 'dev/**/*.js', included: true },
             { pattern: 'tests/*Spec.js', included: true },
             { pattern: 'tests/**/*Spec.js', included: true }
